@@ -6,6 +6,11 @@ android {
     namespace 'com.example.canvasapp'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding true
+    }
+
+
     defaultConfig {
         applicationId "com.example.canvasapp"
         minSdk 25
